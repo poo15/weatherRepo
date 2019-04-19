@@ -349,7 +349,7 @@ var DataService = /** @class */ (function () {
         this.current = new _CityWeather__WEBPACK_IMPORTED_MODULE_3__["CityWeather"]();
     }
     DataService.prototype.getForcastWeather = function (city) {
-        return this.http.get("http://api.apixu.com/v1/forecast.json?key=525cf8e14125477ab5e152638191704&q=" + city + "&days=7");
+        return this.http.get("https://api.apixu.com/v1/forecast.json?key=525cf8e14125477ab5e152638191704&q=" + city + "&days=7");
     };
     DataService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
